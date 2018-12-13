@@ -25,13 +25,15 @@
 
 	.btn-action {
 		margin-top: $spacer * 1;
+		min-width: 280px;
 	}
 }
 
 .list-features {
 	padding: $spacer * 1.25;
 	background-color: darken(theme-color("primary"), 4);
-	@extend .shadow-lg;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.175);
+
 	li {
 		position: relative;
 		padding-left: $spacer * 2;
@@ -52,4 +54,8 @@
 			}
 		}
 	}
+}
+
+.promo-video {
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.175);
 }
