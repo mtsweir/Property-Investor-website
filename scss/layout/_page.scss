@@ -1,0 +1,55 @@
+
+
+.layout-spilt__content {
+	h3 {
+		margin-bottom: .5rem;
+	}
+}
+
+.content-row {
+	margin-bottom: $spacer * 2;
+	width: 100%;
+}
+
+.content-row__header {
+	margin-bottom: $spacer * 4;
+}
+
+.content-row__subscription {
+
+	h2 {
+		span {
+			color: $gray-600;
+		}
+	}
+
+	.btn-action {
+		margin-top: $spacer * 1;
+	}
+}
+
+.list-features {
+	padding: $spacer * 1.25;
+	background-color: darken(theme-color("primary"), 4);
+	@extend .shadow-lg;
+	li {
+		position: relative;
+		padding-left: $spacer * 2;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		&:before {
+			position: absolute;
+			left: 0;
+			font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f058";
+			transition: all .2s ease-out;
+		}
+		&:hover {
+			&:before {
+				color: theme-color("action");
+				transform: scale(1.25);
+			}
+		}
+	}
+}

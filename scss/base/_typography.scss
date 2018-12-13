@@ -1,0 +1,49 @@
+// Base
+
+body, html {
+	height: 100%;
+}
+
+
+//
+// Headings
+//
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	span {
+		font-weight: normal;
+	}
+}
+
+//
+// Paragraphs
+//
+
+p {
+ font-size: $spacer * 1.125;
+}
+
+// Lists
+
+ol,
+ul,
+dl {
+	margin-bottom: $spacer * 1.5;
+	font-size: $spacer * 1.125;
+	
+	li {
+		margin-bottom: $spacer;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+@media (max-width: 540px) {
+
+	h1 {
+		font-size: $spacer * 2;
+	}
+
+}

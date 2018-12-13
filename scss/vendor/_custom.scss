@@ -1,0 +1,68 @@
+/**
+ * Boostrap Overrides
+ *
+ * @project Tarawera.co.nz
+ * @package main.scss
+ */
+
+
+// Colors
+// --------------------------------------------------------------------------
+
+// Theme
+$theme-colors: (
+	"primary": #003f7d,      // Dark Blue
+	"secondary": #F9A006,    // Orange
+	"anchor": #068edf,       // Blue
+	"secondary-1": #2ea5e2,  // Light Blue
+	"action": #5ca941        // Grass Green
+);
+
+// Neutrals
+$gray-100: #f4f7fb;
+$gray-300: #dfe3e6;
+$gray-400: #cdd1d4;
+$gray-600: #5a6872;
+$gray-900: #152935;
+
+// Links
+$link-color: theme-color("anchor");
+
+// Buttons + Forms
+$btn-font-weight: 600;
+
+
+// Spacing
+// --------------------------------------------------------------------------
+
+$spacer: 1rem;
+
+
+// Typography
+// --------------------------------------------------------------------------
+
+// Fonts
+$font-family-sans-serif: 'Roboto', sans-serif;
+//$font-family-serif: 'Lora', serif;
+
+// Font Sizes
+$font-size-base: 1rem;
+
+// Line Heights
+$line-height-base: 1.75;
+$headings-line-height: 1.25;
+
+// Headings
+$headings-font-family: $font-family-sans-serif;
+$headings-margin-bottom: 1.875rem;
+$headings-font-weight: 600;
+
+// Paragraphs
+$paragraph-margin-bottom: $spacer * 1.5;
+
+
+// Forms
+// --------------------------------------------------------------------------
+
+$input-btn-padding-y: 0.75rem;
+$input-btn-padding-x: 1.5rem;
