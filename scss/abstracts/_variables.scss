@@ -1,5 +1,5 @@
 /**
- * Variables
+ * Abstracts: Variables
  *
  * @project Tarawera.co.nz
  * @package main.scss
@@ -11,7 +11,6 @@
 // Theme
 $color-primary: theme-color("primary");
 $color-link: theme-color("anchor");
-
 $color-text: $gray-900; // text primary
 $color-text-secondary: $gray-600; // text contrast
 $color-text-grey-light: $gray-400; // text light
@@ -32,6 +31,5 @@ $color-border-light: $gray-300;
 // --------------------------------------------------------------------------
 
 $font-family-sans-serif: $font-family-sans-serif;
-
 $font-weight-bold: 600;
 $line-height-one: 1;
